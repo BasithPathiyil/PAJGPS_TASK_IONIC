@@ -25,7 +25,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
         container: mapContainer.current,
         // style: "https://demotiles.maplibre.org/style.json",
         style:
-          "https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+          "https://api.maptiler.com/maps/streets/style.json?key=XT48yKHekcP69aMy86zG",
         center: [7.07, 50.7234],
         zoom: 12,
       });
