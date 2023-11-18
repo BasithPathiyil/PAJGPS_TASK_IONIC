@@ -38,6 +38,7 @@ import { useState } from "react";
 import Login from "./pages/Login";
 import DashboardPage from "./pages/Dashboard/DashboardPage";
 import Splash from "./pages/Splash";
+import HomePage from "./pages/Dashboard/HomePage";
 
 setupIonicReact();
 
@@ -58,7 +59,7 @@ const App: React.FC = () => {
               <Login {...props} setIsLoggedIn={setIsLogIn} />
             )}
           />
-          <Route path="/dashboard" component={DashboardPage} />
+          <Route path="/dashboard" component={HomePage} />
 
           <Redirect from="/" to="/splash" exact />
         </IonRouterOutlet>

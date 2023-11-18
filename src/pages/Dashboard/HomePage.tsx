@@ -39,6 +39,7 @@ const HomePage: React.FC = () => {
         console.log(data);
         return data;
       } catch (error) {
+        setIsLoading(false);
         console.log(error);
       }
     };
